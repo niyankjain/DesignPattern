@@ -3,7 +3,7 @@ public class SingletonDP {
     private static SingletonDP instance;
 
     private SingletonDP () {
-        throw new RuntimeException("Trying to break signleton design pattern");
+        throw new RuntimeException("Trying to break singleton design pattern");
     }
 
     public static SingletonDP getInstance() {
