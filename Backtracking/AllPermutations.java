@@ -7,7 +7,7 @@ public class AllPermutations {
   }
 
   public static void permutation(int index, int[] arr) {
-    if(index >= arr.length) {
+    if(index >= arr.length-1) {
       Arrays.stream(arr).forEach(element -> System.out.print(element+" "));
       System.out.println();
       return;
